@@ -1,0 +1,121 @@
+* {
+  margin: 0.5;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: 0;
+  outline: 0;
+}
+h1 {
+  color: navy;
+  text-align: center;
+}
+h2 {
+  color: navy;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.h3Text {
+  color: navy;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  justify-content: center;
+}
+b {
+  color: black;
+}
+
+p {
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+body {
+  margin: 0.5;
+  background-color: #f4f4f4;
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  gap: 0.6rem;
+  z-index: 9;
+}
+
+main {
+  text-align: center;
+  font-size: large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+a:hover {
+  text-decoration: underline;
+}
+.img-card {
+  display: flex;
+  text-align: flex start;
+  width: 100%;
+  border-radius: 15px;
+  border: 2px solid navy;
+  object-fit: cover;
+  margin: 3px;
+}
+
+.AmenitiesText {
+  color: navy;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.AmenitiesInfo {
+  color: #333333;
+  text-align: left;
+  line-height: 1.6;
+  max-width: 900px;
+  margin-top: 70px;
+  align-self: flex-start;
+  padding-top: 10px;
+}
+.AmenitiesList {
+  display: none;
+}
+
+img {
+  border: 2px solid navy;
+  border-radius: 13px;
+  box-shadow: 1px 1px 1px 1px black;
+  cursor: pointer;
+  margin: 10px;
+  transition: 400ms;
+}
+section#Amenities {
+  justify-content: center;
+}
+ul {
+  text-align: center;
+}
+.GallaryTitle {
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+.RenfeAddress {
+  list-style: none;
+  text-align: center;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+section#Rates {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+section#Contact {
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
